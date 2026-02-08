@@ -1,0 +1,15 @@
+package com.unity3d.player;
+
+final class o0 extends Z0
+{
+    final int b;
+    
+    o0(final UnityPlayer unityPlayer, final int b) {
+        this.b = b;
+        super(unityPlayer);
+    }
+    
+    public final void a() {
+        UnityAccessibilityDelegate.-$$Nest$smonNodeFocusChanged(this.b, false);
+    }
+}
